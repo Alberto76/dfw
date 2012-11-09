@@ -1,0 +1,56 @@
+#page-book.book-supposedly-fun-thing header#masthead {
+	background-image: url('/img/heads/supposedly-fun-thing.jpg');
+}
+
+
+
+section.collection {
+	background: #ddd;
+}
+
+	section.collection h1 {
+		width: 180px;
+		float: left;
+		vertical-align: top;
+		font-weight: 600;
+		color: #888;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		line-height: 18px;
+	}
+
+	section.collection li {
+		width: 180px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 22px;
+		margin-top: 25px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+		section.collection li:nth-of-type(4n+1) {
+			margin-left: 205px;
+		}
+
+		section.collection li:first-of-type {
+			margin-left: 25px;
+		}
+		
+		section.collection li:nth-of-type(1),
+		section.collection li:nth-of-type(2),
+		section.collection li:nth-of-type(3),
+		section.collection li:nth-of-type(4) {
+			margin-top: 0;
+		}
+
+	section.collection h2 {
+		color: #666;
+		font-weight: 600;
+	}
+
+	section.collection p {
+		margin-top: 9px;
+		color: #666;
+	}

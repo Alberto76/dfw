@@ -1,0 +1,150 @@
+#masthead h1 a span {
+	position: relative;
+}
+
+#masthead a:hover .char1  { top: -30px; }
+#masthead a:hover .char2  { top:  10px; }
+#masthead a:hover .char3  { top: -10px; }
+#masthead a:hover .char4  { top:  50px; }
+#masthead a:hover .char5  { top:  -5px; }
+#masthead a:hover .char7  { top: -15px; }
+#masthead a:hover .char8  { top: -40px; }
+#masthead a:hover .char9  { top:  15px; }
+#masthead a:hover .char10 { top:  70px; }
+
+
+
+#page-index header#masthead {
+	background-image: url('/img/heads/index.jpg');
+}
+
+
+
+#quote blockquote {
+	font-size: 32px;
+	font-weight: 600;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	line-height: 48px;
+	text-align: center;
+	color: #666;
+}
+
+
+
+#booklist {
+	background: #ddd;
+}
+	
+	#booklist h1 {
+		width: 180px;
+		display: inline-block;
+		vertical-align: top;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 3px;
+		color: #888;
+		font-size: 14px;
+	}
+
+	#booklist li {
+		width: 180px;
+		margin-left: 22px;
+		display: inline-block;
+		vertical-align: bottom;
+		text-align: center;
+	}
+		
+		#booklist li a {
+			text-decoration: none;
+		}
+		
+		#booklist li img {
+			max-width: 170px;
+			margin-bottom: 18px;
+			border: 5px solid #bbb;
+		}
+			
+			#booklist li a:hover img {
+				border-color: #aaa;
+			}
+
+		#booklist li h2, #booklist li h3 {
+			font-size: 12px;
+			line-height: 18px;
+		}
+
+		#booklist li h2 {
+			font-weight: 600;
+			color: #666;
+		}
+		
+			#booklist li a:hover h2 {
+				color: #333;
+			}
+
+		#booklist li h3 {
+			color: #888;
+		}
+			
+			#booklist li a:hover h3 {
+				color: #555;
+			}
+
+			#booklist li.short h3 {
+				margin-bottom: 18px;
+			}
+
+
+
+#author-photo {
+}
+	
+	#author-photo img {
+		max-width: 170px;
+		display: inline-block;
+		vertical-align: middle;
+		border: 5px solid #ddd;
+	}
+
+	#author-photo p {
+		max-width: 795px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 21px;
+		font-size: 24px;
+		line-height: 36px;
+		font-weight: 200;
+		color: #444;
+	}
+		
+		#author-photo p em {
+			font-style: italic;
+		}
+
+	#author-photo span {
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: #666;
+	}
+
+	#author-photo a {
+		margin-left: 10px;
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: #666;
+		text-decoration: none;
+	}
+
+		#author-photo a:after {
+			content: "\2026";
+		}
+
+		#author-photo a:hover {
+			color: #222;
+		}
