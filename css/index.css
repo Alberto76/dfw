@@ -123,7 +123,7 @@
 			font-style: italic;
 		}
 
-	#author-photo span {
+	#author-photo em {
 		font-size: 16px;
 		font-weight: 600;
 		letter-spacing: 3px;
