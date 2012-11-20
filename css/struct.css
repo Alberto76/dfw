@@ -57,13 +57,16 @@ header#masthead {
 	
 	#masthead h1 {
 		position: absolute;
-		top: 140px;
+		top: 137px;
 		left: 205px;
 		height: 20px;
+		padding-top: 3px;
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		color: #fff;
+		overflow: hidden;
+		cursor: default;
 	}
 		
 		#masthead h1 a {
@@ -72,75 +75,24 @@ header#masthead {
 			height: 20px;
 		}
 	
-	#masthead h2 {
-		position: absolute;
-		top: 100px;
-		left: 205px;
-		color: #fff;
-		font-size: 10px;
-		font-weight: 600;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-	}
-		
-		#masthead h2 a {
-			color: #fff;
-			text-decoration: none;
-		}
-			
-			#masthead h2 a span {
-				position: relative;
-			}
-	
-			#masthead h2 a:hover .char1,
-			#masthead h2 a:hover .char3,
-			#masthead h2 a:hover .char5,
-			#masthead h2 a:hover .char8,
-			#masthead h2 a:hover .char10,
-			#masthead h2 a:hover .char12,
-			#masthead h2 a:hover .char15,
-			#masthead h2 a:hover .char17,
-			#masthead h2 a:hover .char19 {
-				top: -3px;
-			}
-
-			#masthead h2 a:hover .char2,
-			#masthead h2 a:hover .char4,
-			#masthead h2 a:hover .char7,
-			#masthead h2 a:hover .char9,
-			#masthead h2 a:hover .char11,
-			#masthead h2 a:hover .char14,
-			#masthead h2 a:hover .char16,
-			#masthead h2 a:hover .char18,
-			#masthead h2 a:hover .char20 {
-				top: 3px;
-			}
-
-	header#masthead h3 {
+	#masthead h1 a {
 		font-family: Entypo;
-		font-size: 50px;
-		height: 24px;
-		width: 28px;
-		line-height: 23px;
-		position: absolute;
-		top: 138px;
-		left: 152px;
-		overflow: hidden;
+		font-size: 45px;
+		font-weight: normal;
+		line-height: 16px;
+		float: left;
+		margin-right: 20px;
+		margin-left: -50px;
+		color: rgba(255, 255, 255, .7);
 	}
-		
-		header#masthead h3 a {
-			color: rgba(255, 255, 255, .7);
-			text-decoration: none;
-			margin-left: 30px;
-		}
 
-		header#masthead:hover h3 a {
-			margin-left: 0;
-		}
-			
-			header#masthead h3 a:hover {
-				color: rgba(255, 255, 255, 1);
-			}
+	#masthead h1:hover a {
+		margin-left: 0;
+	}
+
+	#masthead h1:hover a:hover {
+		color: rgba(255, 255, 255, 1);
+	}
 
 
 

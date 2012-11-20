@@ -4,6 +4,120 @@
 
 
 
+section.book-info {
+}
+	
+	.book-info div {
+		overflow: hidden;
+	}
+	
+	.book-info p.callout {
+		width: 795px;
+		margin-left: 205px;
+		margin-bottom: 25px;
+		font-size: 24px;
+		line-height: 36px;
+		font-weight: 200;
+		color: #444;
+	}
+
+	.book-info em {
+		font-style: italic;
+	}
+
+	.book-info img {
+		border: 5px solid #ddd;
+		width: 195px;
+		float: left;
+		margin: 0 25px 0 90px;
+	}
+
+	.book-info p.text {
+		color: #444;
+		line-height: 24px;
+		width: 590px;
+		margin: 0 auto;
+	}
+
+		.book-info p.text + p.text {
+			text-indent: 20px;
+		}
+
+
+section.buy {
+}
+	
+	.buy > div {
+		overflow: hidden;
+	}
+	
+	.buy p {
+		font-size: 12px;
+		line-height: 24px;
+		width: 590px;
+		color: #666;
+		float: left;
+	}
+
+	.buy p cite {
+		font-weight: 600;
+	}
+
+		.buy p cite:before {
+			content: "— ";
+			margin-left: 10px;
+		}
+
+		.buy p cite a {
+			color: #666;
+			text-decoration: none;
+		}
+
+			.buy p cite a:hover {
+				color: #222;
+			}
+	
+	.buy div div {
+		float: right;
+		background: #eee;
+		width: 165px;
+		margin-right: 90px;
+		font-size: 12px;
+		text-align: center;
+		line-height: 18px;
+		padding: 20px 20px 0 20px;
+	}
+		
+		.buy div div h1 {
+			color: #666;
+			font-weight: 600;
+		}
+
+		.buy div div h2 {
+			margin-top: 9px;
+			color: #888;
+		}
+
+		.buy div div a {
+			display: block;
+			text-decoration: none;
+			padding: 10px 0;
+			margin: 20px -20px 0;
+			color: #888;
+			background: #ddd;
+			border-top: 1px solid #fff;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-weight: 600;
+		}
+
+			.buy div div a:hover {
+				background: #aaa;
+				color: #fff;
+			}
+
+
+
 section.collection {
 	background: #ddd;
 }
