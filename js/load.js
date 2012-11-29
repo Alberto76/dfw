@@ -9,7 +9,4 @@ $(document).ready(function() {
 		opacity:  .2
 	}]);
 
-	$("#page-index #masthead h1 a").lettering();
-	$("#masthead h2 a").lettering();
-
 });
