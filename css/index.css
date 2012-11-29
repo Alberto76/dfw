@@ -1,22 +1,33 @@
-#masthead h1 a span {
-	position: relative;
-}
-
-#masthead a:hover .char1  { top: -30px; }
-#masthead a:hover .char2  { top:  10px; }
-#masthead a:hover .char3  { top: -10px; }
-#masthead a:hover .char4  { top:  50px; }
-#masthead a:hover .char5  { top:  -5px; }
-#masthead a:hover .char7  { top: -15px; }
-#masthead a:hover .char8  { top: -40px; }
-#masthead a:hover .char9  { top:  15px; }
-#masthead a:hover .char10 { top:  70px; }
-
-
-
 #page-index header#masthead {
-	background-image: url('../img/heads/index.jpg');
+	/*background: #eee;*/
+	background-image: url('../img/heads/index2.jpg');
 }
+	
+	#masthead div.images {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0;
+		max-width: none;
+		width: 100%;
+	}
+		
+		#masthead .images div {
+			height: 60px;
+			width: 100%;
+		}
+			
+			/*#masthead .images div.the-pale-king {*/
+				/*background: url('../img/heads/the-pale-king.jpg') center 0;*/
+			/*}*/
+
+			/*#masthead .images div.infinite-jest {*/
+				/*background: url('../img/heads/infinite-jest.jpg') center -60px;*/
+			/*}*/
+
+			/*#masthead .images div.about {*/
+				/*background: url('../img/heads/about-color.jpg') center -60px;*/
+			/*}*/
 
 
 
@@ -25,10 +36,10 @@
 	font-weight: 600;
 	font-style: italic;
 	text-transform: uppercase;
-	letter-spacing: 6px;
+	letter-spacing: 8px;
 	line-height: 48px;
 	text-align: center;
-	color: #666;
+	color: #888;
 }
 
 
@@ -123,7 +134,7 @@
 			font-style: italic;
 		}
 
-	#author-photo em {
+	#author-photo span {
 		font-size: 16px;
 		font-weight: 600;
 		letter-spacing: 3px;
