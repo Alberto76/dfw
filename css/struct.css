@@ -106,16 +106,16 @@ footer#page-footer {
 	font-size: 12px;
 	font-weight: 600;
 	line-height: 18px;
+	overflow: hidden;
 }
 	
 	#page-footer div div {
 		width: 180px;
-		display: inline-block;
-		vertical-align: top;
+		float: left;
 	}
 		
 		#page-footer div div + div {
-			margin-left: 23px;
+			margin-left: 25px;
 		}
 	
 	#page-footer h1 {
@@ -162,67 +162,3 @@ footer#memoriam {
 	text-align: center;
 	letter-spacing: 2px;
 }
-
-
-
-div.src-tag {
-	width: auto;
-	position: absolute;
-	/*padding: 4px 12px 7px;*/
-
-	background: #222;
-	border-radius: 3px;
-}
-	
-	div.src-tag:after {
-		content: " ";
-		display: block;
-		width: 7px;
-		height: 7px;
-		background: #222;
-		position: absolute;
-		bottom: -3px;
-		left: 50%;
-		margin-left: -3px;
-		-webkit-transform: rotate(45deg);
-		-moz-transform: rotate(45deg);
-		-o-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-	}
-
-	div.src-tag.btm:after {
-		bottom: none;
-		top: -3px;
-	}
-	
-	div.src-tag a {
-		font-size: 12px;
-		padding: 0 12px;
-		line-height: 26px;
-		text-decoration: none;
-		color: #ccc;
-	}
-		
-		div.src-tag a:hover {
-			color: #fff;
-		}
-
-	a.src-close {
-		width: auto;
-		padding: 10px 15px 11px;
-		position: fixed;
-		top: 15px;
-		right: 15px;
-		font-size: 12px;
-		color: #ccc;
-		background: #222;
-		border-radius: 3px;
-		text-decoration: none;
-		-webkit-transition: background 0.2s ease, color 0.2s ease;
-	}
-
-		a.src-close:hover {
-			background: #666;
-			color: #fff;
-			-webkit-transition: background 0.2s ease, color 0.2s ease;
-		}

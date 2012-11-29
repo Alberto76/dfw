@@ -55,9 +55,8 @@ section.biblio {}
 
 	.biblio li {
 		width: 180px;
-		display: inline-block;
-		vertical-align: top;
-		margin-left: 22px;
+		float: left;
+		margin-left: 25px;
 		margin-top: 25px;
 		font-size: 12px;
 		line-height: 18px;
@@ -65,10 +64,12 @@ section.biblio {}
 
 		.biblio li:nth-of-type(4n+1) {
 			margin-left: 205px;
+			clear: left;
 		}
 
 		.biblio li:first-of-type {
 			margin-left: 25px;
+			clear: none;
 		}
 		
 		.biblio li:nth-of-type(1),

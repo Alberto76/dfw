@@ -141,6 +141,10 @@ section.buy {
 section.collection {
 	background: #ddd;
 }
+	
+	section.collection ul {
+		overflow: hidden;
+	}
 
 	section.collection h1 {
 		width: 180px;
@@ -156,9 +160,8 @@ section.collection {
 
 	section.collection li {
 		width: 180px;
-		display: inline-block;
-		vertical-align: top;
-		margin-left: 22px;
+		float: left;
+		margin-left: 25px;
 		margin-top: 25px;
 		font-size: 12px;
 		line-height: 18px;
@@ -166,10 +169,12 @@ section.collection {
 
 		section.collection li:nth-of-type(4n+1) {
 			margin-left: 205px;
+			clear: left;
 		}
 
 		section.collection li:first-of-type {
 			margin-left: 25px;
+			clear: none;
 		}
 		
 		section.collection li:nth-of-type(1),
@@ -197,14 +202,16 @@ section.collection {
 
 section.first-line {
 	background: #ddd;
-	overflow: hidden;
 }
+	
+	.first-line div {
+		overflow: hidden;
+	}
 
 	.first-line h1 {
 		margin-top: 11px;
 		width: 180px;
-		display: inline-block;
-		vertical-align: top;
+		float: left;
 		font-weight: 600;
 		color: #888;
 		font-size: 14px;
@@ -219,7 +226,6 @@ section.first-line {
 		line-height: 36px;
 		color: #666;
 		width: 795px;
-		margin-left: 22px;
-		display: inline-block;
-		vertical-align: top;
+		margin-left: 25px;
+		float: left;
 	}
