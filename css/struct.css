@@ -80,6 +80,7 @@ header#masthead {
 	
 	#masthead h1 a {
 		font-family: Entypo;
+		-webkit-font-smoothing: antialiased;
 		font-size: 45px;
 		font-weight: normal;
 		line-height: 16px;

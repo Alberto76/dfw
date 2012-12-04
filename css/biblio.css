@@ -14,6 +14,7 @@
 
 	#page-biblio #masthead i {
 		font-family: Entypo;
+		-webkit-font-smoothing: antialiased;
 		font-size: 30px;
 		margin-top: -4px;
 		margin-right: 5px;
@@ -108,6 +109,7 @@ section.biblio {}
 		.biblio li a h4:after {
 			content: "\1f517";
 			font-family: Entypo;
+			-webkit-font-smoothing: antialiased;
 			font-size: 30px;
 			position: absolute;
 			margin-left: 5px;
