@@ -13,7 +13,7 @@ body {
 	font-family: source-sans-pro, sans-serif;
 	font-size: 16px;
 	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
+	/*-webkit-font-smoothing: antialiased;*/
 }
 
 
@@ -64,7 +64,7 @@ header#masthead {
 		left: 205px;
 		height: 20px;
 		padding-top: 3px;
-		font-weight: 600;
+		font-weight: 400;
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		color: #fff;
@@ -104,7 +104,6 @@ footer#page-footer {
 	background: #222;
 	color: #999;
 	font-size: 12px;
-	font-weight: 600;
 	line-height: 18px;
 	overflow: hidden;
 }
@@ -121,7 +120,7 @@ footer#page-footer {
 	#page-footer h1 {
 		margin-bottom: 18px;
 		font-size: 10px;
-		font-weight: 700;
+		font-weight: 600;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 	}
@@ -157,7 +156,7 @@ footer#memoriam {
 	padding: 15px 0;
 	background: #111;
 	color: #666;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 10px;
 	text-align: center;
 	letter-spacing: 2px;

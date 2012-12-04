@@ -1,3 +1,44 @@
 #page-about header#masthead {
 	background-image: url('../img/heads/about-color.jpg');
 }
+
+section.text {
+}
+	
+	.text p {
+		width: 590px;
+		margin: 0 auto;
+		color: #666;
+		line-height: 24px;
+	}
+
+		.text p + p {
+			text-indent: 20px;
+		}
+
+	.text p.callout {
+		width: 795px;
+		margin-left: 205px;
+		margin-bottom: 25px;
+		font-size: 24px;
+		line-height: 36px;
+		font-weight: 200;
+		color: #666;
+	}
+
+	.text a {
+		/*font-weight: 600;*/
+		color: #666;
+		text-decoration: none;
+		border-bottom: 1px solid #ddd;
+	}
+		
+		.text a:hover {
+			color: #888;
+			border: none;
+		}
+
+	.text em {
+		font-style: italic;
+	}
+
